@@ -86,7 +86,6 @@ const fibonacci = num => {
   if (num < 2) {
     return num;
   }
-
   // recursive case
   return fibonacci(num - 1) + fibonacci(num - 2);
 };
